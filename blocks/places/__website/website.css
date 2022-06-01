@@ -1,0 +1,28 @@
+.website {
+    width: 456px;
+    height: 46px;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    align-self: end;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .website {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .website {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .website {
+        max-width: 288px;
+        margin: 0 0 32px 0;
+    }
+}
