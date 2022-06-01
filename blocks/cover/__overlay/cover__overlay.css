@@ -43,7 +43,7 @@
 @media screen and (max-width: 320px) {
     .cover__overlay {
         width: 100%;
-        height: 200px;;
+        height: 200px;
     }
     
     .cover__overlay:hover {
