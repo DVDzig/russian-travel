@@ -1,6 +1,6 @@
 .header {
     display: grid;
-    max-width: 1184px
+    max-width: 1184px;
     height: 52px;
     margin: 28px auto 0;
     grid-template-columns: 176px auto 40px 30px;
