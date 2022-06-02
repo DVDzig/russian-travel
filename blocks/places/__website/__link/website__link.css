@@ -10,7 +10,7 @@
 }
 
 .website__link:hover {
-    height: 22px;
+    max-height: 22px;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
