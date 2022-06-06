@@ -1,9 +1,9 @@
 .lead {
-    display: grid;
+    display: flex;
     max-width: 984px;
     margin: 56px auto 0;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(4, auto);
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-items: center;
 }
 
