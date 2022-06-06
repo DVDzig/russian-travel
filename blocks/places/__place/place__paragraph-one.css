@@ -1,4 +1,5 @@
 .place__paragraph-one {
+    max-width: 560px;
     margin: 0 0 26px 0;
 }
 

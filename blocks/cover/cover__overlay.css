@@ -1,5 +1,5 @@
 .cover__overlay {
-    max-width: 92.5%;
+    max-width: 1184px;
     background: #2A2C2F;
     opacity: 0.3;
     z-index: 2;
@@ -7,7 +7,7 @@
 }
 
 .cover__overlay:hover {
-    max-width: 92.5%;
+    max-width: 1184px;
     background: #2A2C2F;
     opacity: 0.8;
     z-index: 2;
