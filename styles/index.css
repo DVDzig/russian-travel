@@ -2,7 +2,7 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../logo/logo.css);
+@import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header__lang-link/header__lang-link.css);
 @import url(../blocks/header/header__lang-link-solid/header__lang-link-solid.css);
 @import url(../blocks/lead/lead.css);
@@ -22,7 +22,6 @@
 @import url(../blocks/places/__place/place__paragraph-two/place__paragraph-two.css);
 @import url(../blocks/places/__place/place__image/place__image.css);
 @import url(../blocks/places/__place/place__title/place__title.css);
-@import url(../blocks/places/__website/website__link.css);
 @import url(../blocks/places/__website/website__url-heading/website__url-heading.css);
 @import url(../blocks/places/__website/website__link/website__link.css);
 @import url(../blocks/cover/cover.css);
