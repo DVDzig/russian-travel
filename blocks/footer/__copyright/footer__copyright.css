@@ -1,0 +1,15 @@
+.footer__copyright {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        font-size: 14px;
+        text-align: left;  
+    }
+  }
