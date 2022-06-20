@@ -1,26 +1,15 @@
 .cover__background {
+    position: relative;
     max-width: 1184px;
     object-fit: cover;
+    background: #2A2C2F;
+    opacity: 0.3;
+    z-index: 2;
 }
 
-
-@media screen and (max-width: 1024px) {
-    .cover__background {
-        max-width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    .cover__background {
-        max-width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 320px) {
-    .cover__background {
-        max-width: 100%;
-    }
-
+.cover__background:hover {
+    max-width: 1184px;
+    background: #2A2C2F;
+    opacity: 0.8;
+    z-index: 2;
 }

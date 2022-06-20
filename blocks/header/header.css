@@ -1,11 +1,13 @@
 .header {
-    display: grid;
+    display: flex;
     max-width: 1184px;
     margin: 28px auto 0;
-    grid-template-columns: 176px auto 40px 30px;
-    grid-template-rows: 52px;
     align-items: center;
-    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1024px) {
