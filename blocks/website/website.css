@@ -1,24 +1,25 @@
-.place__paragraph-one {
-    max-width: 560px;
-    margin: 0 0 26px 0;
+.website {
+    max-width: 456px;
+    text-align: left;
+    align-self: end;
 }
 
 @media screen and (max-width: 1024px) {
-    .place__paragraph-one {
+    .website {
         max-width: 456px;
-        margin: 0 0 27px 0;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph-one {
+    .website {
         max-width: 352px;
-        margin: 0 0 25px 0;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__paragraph-one {
+    .website {
         max-width: 288px;
+        margin: 0 auto 32px 16px;
+        align-self: start;
     }
 }

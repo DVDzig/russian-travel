@@ -1,8 +1,10 @@
 .footer__copyright {
     font-weight: 400;
     font-size: 14px;
+    line-height: 16px;
     text-align: right;
     color: white;
+    margin: 0;
     grid-column-start: 7;
     grid-column-end: 8;
 }
@@ -11,6 +13,7 @@
     .footer__copyright {
         font-size: 14px;
         text-align: left;
-        margin: 16px 0 118px 24px;
+        line-height: 14px;
+        margin-top: 16px;
     }
   }

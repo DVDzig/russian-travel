@@ -1,7 +1,7 @@
 .cover {
     display: flex;
     justify-content: center;
+    align-items: center;
     max-width: 1184px;
     margin: auto;
-    z-index: 0;
 }

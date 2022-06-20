@@ -1,6 +1,7 @@
 .website__link {
     font-weight: 400;
     font-size: 18px;
+    line-height: 22px;
     text-decoration-line: underline;
     text-align: left;
     align-self: end;
@@ -10,29 +11,10 @@
 .website__link:hover {
     font-weight: 400;
     font-size: 18px;
+    line-height: 22px;
     text-decoration-line: underline;
     text-align: left;
     align-self: end;
     color: white;
     opacity: 0.8;
-}
-
-@media screen and (max-width: 768px) {
-    .website__link {
-        font-size: 18px;
-    }
-    
-    .website__link:hover {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .website__link {
-        font-size: 12px;
-    }
-    
-    .website__link:hover {
-        font-size: 12px;
-    }
 }

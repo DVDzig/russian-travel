@@ -2,6 +2,7 @@
     max-width: 720px;
     font-weight: 900;
     font-size: 96px;
+    line-height: 100px;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 auto 32px;
@@ -11,5 +12,7 @@
     .lead__title {
         max-width: 288px;
         font-size: 40px;
+        line-height: 44px;
+        margin: 0 auto 16px 16px;
     }
 }
