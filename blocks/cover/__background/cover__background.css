@@ -34,34 +34,34 @@
 
 @media screen and (max-width: 1024px) {
     .cover__background {
-        height: 640px;
+        max-height: 640px;
     }
 
     .cover__background:hover {
-        height: 640px;
+        max-height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__background {
-        height: 480px;
+        max-height: 480px;
         margin-top: 17px;
     }
 
     .cover__background:hover {
-        height: 480px;
+        max-height: 480px;
         margin-top: 17px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 510px) {
     .cover__background {
-        height: 200px;
+        max-height: 200px;
         margin: 16px auto 64px;
     }
 
     .cover__background:hover {
-        height: 200px;
+        max-height: 200px;
         margin: 16px auto 64px;
     }
 }
