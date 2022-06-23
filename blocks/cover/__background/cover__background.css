@@ -10,7 +10,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 12px 0 92px;
     position: relative;
     z-index: 1;
 }
@@ -45,23 +44,29 @@
 @media screen and (max-width: 768px) {
     .cover__background {
         max-height: 480px;
-        margin-top: 17px;
     }
 
     .cover__background:hover {
         max-height: 480px;
-        margin-top: 17px;
     }
 }
 
-@media screen and (max-width: 510px) {
+/* @media screen and (max-width: 475px) {
+    .cover__background {
+        max-height: 300px;
+    }
+
+    .cover__background:hover {
+        max-height: 300px;
+    }
+} */
+
+@media screen and (max-width: 500px) {
     .cover__background {
         max-height: 200px;
-        margin: 16px auto 64px;
     }
 
     .cover__background:hover {
         max-height: 200px;
-        margin: 16px auto 64px;
     }
 }

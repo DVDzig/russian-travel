@@ -1,4 +1,4 @@
-.place__paragraph_margin {
+.place__paragraph-margin {
     max-width: 484px;
     text-align: left;
     font-weight: 400;
@@ -7,26 +7,26 @@
     align-items: start;
 }
 
-.place__paragraph_margin:first-child {
+.place__paragraph-margin:first-child {
     margin: 0 0 25px;
 }
 
-.place__paragraph_margin:last-child {
+.place__paragraph-margin:last-child {
     margin: 0 0 0;
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph_margin {
+    .place__paragraph-margin {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__paragraph_margin:first-child {
+    .place__paragraph-margin:first-child {
         margin: 0 auto 25px;
     }
     
-    .place__paragraph_margin:last-child {
+    .place__paragraph-margin:last-child {
         margin: 0 auto;
     }
 }

@@ -1,6 +1,6 @@
 .places {
     max-width: 984px;
-    margin: 0 auto 148px 92px;
+    margin: 0 auto 92px;
     display: flex;
     flex-direction: column;
 }
@@ -8,20 +8,19 @@
 @media screen and (max-width: 1024px) {
     .places {
         max-width: 928px;
-        margin: 0 auto 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
         max-width: 768px;
-        margin: 0 auto 24px;
+        margin: 0 auto 90px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places {
         max-width: 100%;
-        margin: 0;
+        margin: 0 auto 66px;
     }
 }

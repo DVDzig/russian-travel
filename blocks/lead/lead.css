@@ -1,7 +1,7 @@
 .lead {
     display: flex;
     max-width: 984px;
-    margin: 56px auto 0 148px;
+    margin: 56px auto 0;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-items: center;
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1024px) {
     .lead {
-        margin: 48px auto 0 48px;
+        margin: 48px auto 0;
     }
 }
 
@@ -24,10 +24,6 @@
 @media screen and (max-width: 320px) {
     .lead {
         max-width: 320px;
-        justify-items: start;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         margin: 48px 0 64px;
     }
 }
