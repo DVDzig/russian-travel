@@ -34,10 +34,22 @@
 @media screen and (max-width: 1024px) {
     .cover__background {
         max-height: 640px;
+        width: 100%;
     }
 
     .cover__background:hover {
         max-height: 640px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cover__background {
+        max-height: 480px;
+    }
+
+    .cover__background:hover {
+        max-height: 480px;
     }
 }
 
@@ -51,7 +63,7 @@
     }
 }
 
-/* @media screen and (max-width: 475px) {
+@media screen and (max-width: 500px) {
     .cover__background {
         max-height: 300px;
     }
@@ -59,9 +71,9 @@
     .cover__background:hover {
         max-height: 300px;
     }
-} */
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 475px) {
     .cover__background {
         max-height: 200px;
     }

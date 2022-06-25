@@ -2,3 +2,8 @@
     color: white;
     text-decoration: none;
 }
+
+.header__lang-active {
+    margin-right: 20px;
+    text-decoration: underline;
+}
