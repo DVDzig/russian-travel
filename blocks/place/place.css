@@ -18,6 +18,19 @@
         max-width: 928px;
         grid-template-columns: 440px 1fr;
         gap: 48px 32px;
+        margin: 0 auto 80px;
+    }
+
+    .place-margin {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        max-width: 928px;
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
         margin: 0 1% 80px 1%;
     }
 

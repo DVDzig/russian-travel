@@ -1,11 +1,5 @@
 .cover__background {
-    background-image: url("../../../images/cover-trains.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
     opacity: 0.8;
-    width: 1184px;
-    height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +24,7 @@
     opacity: 0.8;
 }
 
-
+/* 
 @media screen and (max-width: 1024px) {
     .cover__background {
         max-height: 640px;
@@ -81,4 +75,4 @@
     .cover__background:hover {
         max-height: 200px;
     }
-}
+} */
