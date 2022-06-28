@@ -1,6 +1,6 @@
 .footer {
   display: grid;
-  grid-template-columns: 50px 57px 94px 86px 106px auto 186px;
+  grid-template-columns: repeat(2,1fr);
   grid-template-rows: 18px;
   gap: 18px;
   max-width: 1184px;
@@ -17,16 +17,17 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
-    margin: 88px auto 24px 24px;
-  }
+    margin: 88px auto 24px;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 711px) {
   .footer {
     display: flex;
     max-width: 186px;
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
+    margin: 88px auto 24px 24px;
   }
 }

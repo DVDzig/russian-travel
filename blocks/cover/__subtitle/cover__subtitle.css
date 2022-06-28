@@ -4,15 +4,13 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    margin: auto;
+    margin: 0;
     color: white;
     text-decoration-line: none;
 }
 
 @media screen and (max-width: 500px) {
     .cover__subtitle {
-        min-height: 48px;
-        font-weight: 400;
         font-size: 14px;
         line-height: 16px;
     }

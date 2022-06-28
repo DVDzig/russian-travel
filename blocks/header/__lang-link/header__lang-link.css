@@ -2,3 +2,8 @@
     color: white;
     text-decoration: none;
 }
+
+.header__lang-link:hover {
+    color: rgb(212, 79, 79);
+    text-decoration: none;
+}

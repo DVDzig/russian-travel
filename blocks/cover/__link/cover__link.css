@@ -1,4 +1,27 @@
 .cover__link {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     color: white;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.cover__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
 }
