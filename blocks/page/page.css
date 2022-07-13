@@ -6,4 +6,5 @@
   font-style: normal;
   text-rendering: optimizeLegibility;
   color: white;
+  overflow: hidden;
 }

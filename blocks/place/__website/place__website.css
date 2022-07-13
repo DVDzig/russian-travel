@@ -13,14 +13,13 @@
 @media screen and (max-width: 768px) {
     .place__website {
         max-width: 352px;
-        margin: 0 auto 32px 16px;
+        margin: 0 auto 32px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__website {
         width: 288px;
-        margin: 0 auto 32px 16px;
         align-self: start;
     }
 }
